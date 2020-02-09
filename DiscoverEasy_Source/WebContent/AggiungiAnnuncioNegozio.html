@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> Aggiungi Prodotto - DiscoverEasy </title>
+  <link rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheet\styleAggiungiProdotto.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation"> <!-- navbar fissata in alto-->
+    <div class="container">
+
+      <div class="navbar-header"> <!-- Pulsante del menu per finestra piccola -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only"> Toggle navigation </span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+        </button>
+        <!--Logo-->
+        <a href="home.html" id="logo" class="navbar-brand"><img id="immagineLogo" class="img-rounded"
+          src="Img/Logo4.png" alt="logo"></a>
+        </div>
+
+      </div>
+
+    </nav>
+
+
+    <div class="container" id="home"> <!-- div che contiene tutto il form di registrazione-->
+      <div class="row" id="aggiungi"> <!-- dichiaro una riga di boostrap -->
+        <div class="col-xs-8 col-xs-offset-2"> <!-- div di 8 colonne, centrato-->
+
+          <form action="AggiungiAnnuncioNegozio" method="post" id="form"> <!-- form aggiungiProdotto -->
+
+            <div class="form-group"> <!--Inserisci nome oggetto -->
+              <label id="labelNome">Nome</label>
+              <input class="form-control" name="nomeRegistrazione" placeholder="Inserisci nome oggetto">
+              <label id="labelNomeErrato">Inserisci una nome
+							valido, minore di 30 caratteri</label>
+            </div>
+
+            <div class="form-group">
+              <label id="labelCategoria">Categoria</label>
+              <select class="form-control" name="categoriaOggetto">
+                <option>Categoria</option>
+                <option>Veicoli</option>
+                <option>Informatica</option>
+                <option>Casalinghi</option>
+                <option>Altro</option>
+              </select>
+               <label id="labelCategoriaErrata">Inserisci una categoria
+							valida</label>
+            </div>
+
+
+            <div class="form-group"> <!--Inserisci regione -->
+              <label id="labelRegione"> Regione</label>
+              <select class="form-control" name="regioneOggetto" id="selezionaRegione">
+                <option>Regione</option><option>Abruzzo</option><option>Basilicata</option><option>Calabria</option><option>Campania</option><option>Emilia-Romagna</option><option>Friuli-Venezia-Giulia</option><option>Lazio</option><option>Liguria</option><option>Lombardia</option><option>Marche</option><option>Molise</option><option>Piemonte</option><option>Puglia</option><option>Sardegna</option><option>Sicilia</option><option>Toscana</option><option>Trentino-Alto-Adige</option><option>Umbria</option><option>Valle d'Aosta</option><option>Veneto</option>
+              </select>
+               <label id="labelRegioneErrata">Inserisci una regione
+							valida</label>
+            </div>
+
+
+            <div class="Descrizione, form-group">
+              <label id="labelDescrizione"> Descrizione:</label>
+              <textarea class="form-control" rows="5" id="textAreaDescrizione"  name="descrizioneOggetto"></textarea>
+              <label id="labelDescrizioneErrata">Inserisci una descrizione valida</label>
+            </div>
+
+
+
+            <div class="input-group"> <!-- div per aggiunge url file -->
+              <label class="input-group-btn">
+                <span id="scegliFile" class="btn btn-primary">Scegli File <input type="file" id="img-file" name="img_file" style="display: none;">  </span>
+              </label>
+              <input type="text" class="form-control" id="img-name" name="urlImmagineOggetto" placeholder="Seleziona file JPG">
+            </div>
+			 <label id="labelUrlErrato">Inserisci un immagine valida in formato jpg</label>
+			 
+            <div class="Inserisci_prezzo">
+            <div class="input-group">
+              <span id="labelPrezzo" class="input-group-addon"> Prezzo: €</span>
+              <input type="text" class="form-control" id="prezzoOggetto" name="prezzoOggetto">
+              <span class="input-group-addon">.00</span>
+            </div>
+             <label id="labelPrezzoErrato">Prezzo non valido</label>
+            </div>
+
+            <div>
+              <button type="submit" class="btn btn-default" id="bottoneAggiungiProdotto"> <strong>Aggiungi</strong></button>
+            </div>
+          
+        </form> <!-- fine form di aggiungiProdotto -->
+			
+      </div> <!--chiudo riga di bootstrap-->
+    </div> <!-- chiudo div che contiene form-->
+  </div>
+
+  <footer class="footer container-fluid text-center" id="footer"> <!--inizio footer -->
+    <div class="row">
+      <div class="payments col-md-4">
+        <a href="chisiamo.html"><Strong>Chi siamo </Strong></a>
+        <a href="chisiamo.html"><span class="glyphicon glyphicon-zoom-in"></span></a>
+      </div>
+
+      <div class="social col-md-4">
+        <a href="https://it-it.facebook.com"><Strong>Seguici</Strong></a>
+        <a href="https://it-it.facebook.com"><span class="glyphicon glyphicon-random"></span></a>
+      </div>
+      <div class="payments col-md-4">
+        <a href="contattaci.html"><Strong>Contattaci </Strong></a>
+        <a href="contattaci.html"><span class="glyphicon glyphicon-bullhorn"></span></a>
+      </div>
+    </div>
+
+  </footer> <!--fine footer -->
+	
+ <script src="inputFile.js"></script>
+ <script src="AggiungiProdottoScript.js"> </script>
+
+</body>
+</html>

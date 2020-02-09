@@ -1,0 +1,482 @@
+.navbar {
+	background-color: #1e90ff !important;
+}
+
+.navbar .navbar-nav li a {
+	color: #ffd700 !important;
+}
+
+.navbar-nav>li>a {
+	padding-top: 40px;
+	font-size: 18px;
+}
+
+.navbar-brand {
+	height: 100px;
+	padding: 0px 0px;
+}
+
+#footer {
+	color: #ffd700;
+	position: fixed;
+	bottom: 0;
+	background-color: #1e90ff;
+	width: 100%;
+	height: 100px;
+	padding: 3%;
+}
+
+.glyphicon {
+	color: #ffd700;
+}
+
+#registrazione {
+	margin-top: 60px;
+	padding-top: 75px;
+	padding-bottom: 95px;
+	border-right: 4px solid #ffd700;
+	border-left: 4px solid #ffd700;
+}
+
+#selezionaAnnoNascita, #selezionaRegione {
+	width: 40%;
+}
+
+#bottoneRegistrazione {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #ffd700;
+	background-color: #1e90ff;
+}
+
+.Regione, .Anno_nascita {
+	margin-bottom: 15px;
+}
+
+.radio {
+	margin-top: 0px;
+}
+
+.radio label {
+	padding-left: 25px;
+}
+
+a, a:active, a:visited, a:hover {
+	color: #ffd700;
+	text-decoration: none;
+}
+
+label {
+	color: #ffd700;
+}
+
+#terminicondizioni {
+	color: black;
+}
+
+.radioLabel {
+	color: black;
+}
+
+
+
+/*Modal Accedi*/
+#myModalLabel { /*colore label*/
+	color: #ffd700;
+}
+
+.modal-content { /*Sfondo Modal*/
+	background-color: #1e90ff;
+}
+
+#botteneCercaHome {
+	color: #ffd700;
+	background-color: #1e90ff;
+}
+
+.modal-header { /*instazione modal */
+	padding-bottom: 0;
+	padding-right: 0;
+	margin-left: 10%;
+	border-bottom: none; /* Togli righe bianche nel model*/
+}
+
+.modal-footer {
+	border-top: none; /* Togli righe bianche nel model*/
+}
+
+.immagineCosaCerchi img {
+	width: 60%;
+	height: 60%;
+	margin-left: 20%;
+	padding-bottom: 10%;
+}
+
+#dropDownAccedi {
+	color: #ffd700;
+	margin-top: 34px;
+	font-size: 18px;
+	background-color: #1e90ff;
+	border-style: none;
+	display: none;
+}
+
+#menuUtente {
+	background-color: #1e90ff;
+}
+
+#bottoneEsciLogin {
+	color: #ffd700;
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 16px;
+	border-style: none;
+	background-color: #1e90ff;
+}
+
+#bottoneMioNegozio {
+	font-size: 16px;
+	color: #ffd700;
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 10px;
+	border-style: none;
+	background-color: #1e90ff;
+}
+
+#bottoneChat{
+	
+	font-size: 18px;
+	color: #ffd700;
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-right: 20px;
+	border-style: none;
+	background-color: #1e90ff;
+}
+
+/* fine dropdown utente */
+
+/* prima entrambi avevano come id bottoneAccedieRegistrati*/
+#bottoneAccediBarraNavigazione, #bottonePreferitiBarraNavigazione {
+	color: #ffd700;
+	margin-top: 34px;
+	font-size: 18px;
+	background-color: #1e90ff;
+	border-style: none
+}
+
+/*Modal Accedi*/
+#modalAccedi { /*colore label*/
+	color: #ffd700;
+}
+
+.modal-content { /*Sfondo Modal*/
+	background-color: #1e90ff;
+}
+
+#modalHeaderAccedi { /*instazione modal */
+	padding-bottom: 0;
+	padding-right: 0;
+	margin-left: 10%;
+	border-bottom: none; /* Togli righe bianche nel model*/
+}
+
+#modalFooterAccedi {
+	border-top: none; /* Togli righe bianche nel model*/
+}
+
+#corpoModelAccedi {
+	margin-bottom: 73px;
+	margin-left: 10%;
+}
+
+
+#bottoneChiudiModel { /*Accedi*/
+	font-size: 16px;
+}
+
+#inputModal {
+	width: 90%;
+}
+
+#bottoneAccedi {
+	color: #ffd700;
+	margin-top: 34px;
+	font-size: 18px;
+	background-color: #1e90ff;
+	border-style: none
+}
+
+#bottoneAccediModel {
+	background-color: #ffd700;
+	border-style: none;
+	font-size: 22px;
+	width: 100px;
+}
+
+
+
+
+.contenitoreBottoniAccedi {
+	right: 3%;
+	top: 110%;
+	position: absolute;
+}
+
+/*Fine modal Accedi*/
+
+/*Inizio modal Preferiti */
+#divEsternoOggetto {
+	border-top: 2px solid #ffd700;
+	padding-left: 20px;
+}
+
+#immagineOggetto {
+	max-width: 150px;
+	max-height: 150px;
+	/*L'immagine può essere alta un max di 150 pixel, quindi viene ridimensionata*/
+}
+
+#descrizioneOggetto {
+	max-height: 200px; /*grandezza massima descrizione*/
+	overflow: auto;
+	/*
+	scroll bar automatica quando supera descizione 220px*/
+}
+
+.divBottoneEliminaOggettoPreferiti {
+	color: red;
+	border-style: none;
+	padding: 0;
+	text-align: right;
+}
+
+#modalHeaderPreferiti {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-left: 15%;
+	border-bottom: none;
+	border-style: 1px solid #1e90ff;
+	background-color: #1e90ff;
+	top: 0;
+	/*messo top zero cosi quando scrolli verso il basso l'intestazione cioè il modal preferiti rimane fisso in alto*/
+	position: sticky;
+	z-index: 2000;
+}
+
+#bottoneChiudiPreferiti {
+	font-size: 14px;
+	background-color: #ffd700;
+	right: 8px;
+	position: absolute;
+	color: #1e90ff;
+}
+
+/*pulsante con icona cestino che elimina tutti gli oggetti cioè tutti i preferiti del modal preferiti*/
+#cestinoPreferiti {
+	background-color: #ffd700;
+	right: 0;
+}
+
+.glyphicon-remove:before {
+	color: black;
+}
+
+#modalFooterPreferiti {
+	position: absolute;
+	right: 0;
+	border-top: none;
+	bottom: 0;
+}
+
+#labelTitoloPreferiti {
+	color: #ffd700;
+}
+
+#bodyPreferiti {
+	margin-top: -1px;
+	background-color: white;
+	border: solid 7px #1e90ff;
+	padding: 0px;
+	padding-bottom: 50px;
+}
+
+.coloreCestino:before {
+	color: black;
+}
+
+.prezzoProdotto {
+	color: red;
+}
+
+.contatti {
+	font-size: 110%;
+	color: darkorange;
+}
+
+h3 {
+	color: #ffd700;
+}
+
+.glyphicon-trash {
+	color : black;
+}
+
+#listaPreferitiVuota {
+	margin-left: 15%;
+    font-size: 18px;
+    display: block;
+    margin-top: 30px; 
+}
+
+#divDataOra {
+	
+margin-top: 10px;
+font-size: 110%;
+color: darkorange;
+display:block;
+}
+
+
+/*Fine modal Preferiti*/
+
+/*Etichette con contenuti*/
+.contenutoParagrafi {
+	font-size: 17px;
+	padding: 5px;
+	display: inline;
+}
+
+.contenutoLabel {
+	font-size: 19px;
+	display: inline;
+}
+
+#campoPassword {
+	margin-bottom: 7px;
+	margin-top: 7px;
+	padding: 3px;
+	border-style: solid;
+	width: 50%;
+	border-radius: 10px;
+	display: none;
+}
+
+#bottoneConferma {
+	display: none;
+}
+
+#bottoneAnnulla {
+	display: none;
+}
+
+.contenitoreDati {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.bottoneGestionePassword {
+	background: white;
+	border: none;
+	color: #1e90ff;
+}
+
+#bottoneConfermaCancellazioneAccount {
+	background: white;
+	border: none;
+	color: #1e90ff;
+	display: none;
+}
+
+#bottoneModificaPassword {
+	background: white;
+	border: none;
+	color: #1e90ff;
+	margin-left: 20px;
+}
+
+@media screen and (min-width: 751px) {
+	#bottoneModificaAccount {
+		background: white;
+		border: none;
+		color: #1e90ff;
+		margin-left: 40px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	#bottoneModificaAccount {
+		background: white;
+		border: none;
+		color: #1e90ff;
+		display: block;
+		margin-top: 25px;
+	}
+}
+
+#inputNascostoEliminaAccount {
+	display: none;
+}
+
+#labelPasswordModificata {
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #1e90ff;
+	padding: 5px;
+	background: #1e90ff;
+}
+
+#formModificaPassword {
+	display: inline;
+}
+
+#formEliminazioneAccount {
+	display: inline;
+}
+
+#labelConfermaEliminazioneAccount {
+	color: #1e90ff;
+	display: none;
+}
+/*Fine*/
+
+/*Barra navigazione*/
+#bottoneGestioneBarraNavigazione {
+	color: #ffd700;
+	margin-top: 34px;
+	font-size: 18px;
+	background-color: #1e90ff;
+	border-style: none;
+}
+
+#dropDownAccedi {
+	color: #ffd700;
+	margin-top: 34px;
+	font-size: 18px;
+	background-color: #1e90ff;
+	border-style: none;
+	display: inline;
+}
+
+
+/*Fine barra navigazione*/
+
+#labelPasswordErrato {
+	color: red;
+	margin-top:10px;
+	margin-bottom:10px;
+	display: none;
+}
+
+
+
+
+
+
+
+

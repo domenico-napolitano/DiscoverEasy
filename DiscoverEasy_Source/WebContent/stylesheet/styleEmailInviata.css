@@ -1,0 +1,44 @@
+.navbar {
+  background-color: #1e90ff !important;
+}
+
+.navbar .navbar-nav li a{
+  color: #ffd700 !important;
+}
+
+.navbar-nav>li>a {
+    padding-top: 40px;
+    font-size:18px;
+}
+
+.navbar-brand {
+    height: 100px;
+    padding: 0px 0px;
+}
+
+#footer{
+  color: #ffd700;
+  position:fixed;
+  bottom:0;
+  background-color:#1e90ff;
+  width:100%;
+  height:100px;
+  padding: 3%;
+}
+
+.glyphicon {
+    color: #ffd700;
+}
+
+#registrazione{
+  margin-top: 100px;
+  padding-top: 75px;
+  padding-bottom: 450px;
+  border-right: 4px solid #ffd700;
+  border-left: 4px solid #ffd700;
+}
+
+a , a:active, a:visited, a:hover{
+  color: #ffd700;
+  text-decoration: none;
+}

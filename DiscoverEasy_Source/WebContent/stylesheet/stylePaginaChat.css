@@ -1,0 +1,558 @@
+.navbar {
+	background-color: #1e90ff !important;
+}
+
+.navbar .navbar-nav li a {
+	color: #ffd700 !important;
+}
+
+.navbar-nav>li>a {
+	padding-top: 40px;
+	font-size: 18px;
+}
+
+.navbar-brand {
+	height: 100px;
+	padding: 0px 0px;
+}
+
+/*Modal Accedi*/
+#myModalLabel { /*colore label*/
+	color: #ffd700;
+}
+
+.modal-content { /*Sfondo Modal*/
+	background-color: #1e90ff;
+}
+
+#botteneCercaHome {
+	color: #ffd700;
+	background-color: #1e90ff;
+	min-width: 100px;
+}
+
+.modal-header { /*instazione modal */
+	padding-bottom: 0;
+	padding-right: 0;
+	margin-left: 10%;
+	border-bottom: none; /* Togli righe bianche nel model*/
+}
+
+.modal-footer {
+	border-top: none; /* Togli righe bianche nel model*/
+}
+
+.immagineCosaCerchi img {
+	width: 60%;
+	height: 60%;
+	margin-left: 20%;
+	padding-bottom: 10%;
+}
+
+#dropDownAccedi {
+	color: #ffd700;
+	margin-top: 34px;
+	font-size: 18px;
+	background-color: #1e90ff;
+	border-style: none;
+}
+
+#menuUtente {
+	background-color: #1e90ff;
+}
+
+#bottoneEsciLogin {
+	color: #ffd700;
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 16px;
+	border-style: none;
+	background-color: #1e90ff;
+}
+
+#bottoneMioNegozio {
+	font-size: 16px;
+	color: #ffd700;
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 10px;
+	border-style: none;
+	background-color: #1e90ff;
+}
+
+/* fine dropdown utente */
+
+/* prima entrambi avevano come id bottoneAccedieRegistrati*/
+#bottoneAccediBarraNavigazione, #bottonePreferitiBarraNavigazione {
+	color: #ffd700;
+	margin-top: 34px;
+	font-size: 18px;
+	background-color: #1e90ff;
+	border-style: none
+}
+
+#listaPreferitiVuota {
+	margin-left: 15%;
+	font-size: 18px;
+	display: block;
+	margin-top: 30px;
+}
+
+#bottoneGestioneBarraNavigazione {
+	color: #ffd700;
+	margin-top: 34px;
+	font-size: 18px;
+	background-color: #1e90ff;
+	border-style: none;
+	display: none;
+}
+
+/*Modal Accedi*/
+#modalAccedi { /*colore label*/
+	color: #ffd700;
+}
+
+.modal-content { /*Sfondo Modal*/
+	background-color: #1e90ff;
+}
+
+#modalHeaderAccedi { /*instazione modal */
+	padding-bottom: 0;
+	padding-right: 0;
+	margin-left: 10%;
+	border-bottom: none; /* Togli righe bianche nel model*/
+}
+
+#modalFooterAccedi {
+	border-top: none; /* Togli righe bianche nel model*/
+}
+
+#corpoModelAccedi {
+	margin-bottom: 73px;
+	margin-left: 10%;
+}
+
+#inputModalEmail, #inputModalPassword { /* caselle input modal*/
+	width: 90%;
+}
+
+#bottoneChiudiModel { /*Accedi*/
+	font-size: 16px;
+}
+
+#inputModal {
+	width: 90%;
+}
+
+#bottoneAccedi {
+	color: #ffd700;
+	margin-top: 34px;
+	font-size: 18px;
+	background-color: #1e90ff;
+	border-style: none
+}
+
+#bottoneAccediModel {
+	background-color: #ffd700;
+	border-style: none;
+	font-size: 22px;
+	width: 100px;
+}
+
+#labelModelEmail, #labelModelPassword {
+	color: #ffd700;
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 21px;
+}
+
+#labelPasswordErrato, #labelEmailErrato {
+	color: red;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+#labelEmailPasswordErrati {
+	color: red;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+.contenitoreBottoniAccedi {
+	right: 3%;
+	top: 110%;
+	position: absolute;
+}
+
+/*Fine modal Accedi*/
+
+/*Inizio modal Preferiti */
+#divEsternoOggetto {
+	border-top: 2px solid #ffd700;
+	padding-left: 20px;
+}
+
+#immagineOggetto {
+	max-width: 150px;
+	max-height: 150px;
+	/*L'immagine può essere alta un max di 150 pixel, quindi viene ridimensionata*/
+}
+
+#descrizioneOggetto {
+	max-height: 200px; /*grandezza massima descrizione*/
+	overflow: auto;
+	/*
+	scroll bar automatica quando supera descizione 220px*/
+}
+
+.divBottoneEliminaOggettoPreferiti {
+	color: red;
+	border-style: none;
+	padding: 0;
+	text-align: right;
+}
+
+#modalHeaderPreferiti {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-left: 15%;
+	border-bottom: none;
+	border-style: 1px solid #1e90ff;
+	background-color: #1e90ff;
+	top: 0;
+	/*messo top zero cosi quando scrolli verso il basso l'intestazione cioè il modal preferiti rimane fisso in alto*/
+	position: sticky;
+	z-index: 2000;
+}
+
+#bottoneChiudiPreferiti {
+	font-size: 14px;
+	background-color: #ffd700;
+	right: 8px;
+	position: absolute;
+	color: #1e90ff;
+}
+
+/*pulsante con icona cestino che elimina tutti gli oggetti cioè tutti i preferiti del modal preferiti*/
+#cestinoPreferiti {
+	background-color: #ffd700;
+	right: 0;
+}
+
+#modalFooterPreferiti {
+	position: absolute;
+	right: 0;
+	border-top: none;
+	bottom: 0;
+}
+
+#divDataOra {
+	margin-top: 10px;
+	font-size: 110%;
+	color: darkorange;
+	display: block;
+}
+
+h3 {
+	color: #ffd700;
+}
+
+/*Fine modal Preferiti*/
+#footer {
+	color: #ffd700;
+	position: fixed;
+	bottom: 0;
+	background-color: #1e90ff;
+	width: 100%;
+	height: 100px;
+	padding: 3%;
+}
+
+.ricercaHomePage {
+	margin-top: 200px;
+}
+
+#corpoHomePage {
+	/* div principale che comprendo sfondo e form di ricerca*/
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	height: 90%;
+	background-image: url("../Img/sfondo_home2.png");
+	background-position: center center;
+	background-size: cover;
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	z-index: -1;
+	min-height: 650px;
+}
+
+a, a:active, a:visited, a:hover {
+	color: #ffd700;
+	text-decoration: none;
+}
+
+#bottoneAggiungiProdotto {
+	padding: 30px;
+	font-size: 150%;
+}
+
+.prezzoProdotto {
+	color: red;
+}
+
+.descrizioneProdotto {
+	color: #5A5A5A;
+	display: inline-block;
+}
+
+tr {
+	border-top: 2px solid #ffd700;
+}
+
+#containerRicerca {
+	margin-top: 15px;
+}
+
+#cancellaDaPreferiti {
+	color: red;
+	background-color: rgba(0, 0, 0, 0);
+	right: 0;
+	border-style: none;
+	text-align: right;
+}
+
+h4 {
+	display: inline-block;
+}
+
+#bottoneAggiungiPreferiti {
+	float: right;
+}
+
+#bottoneAggiungiPreferiti>button {
+	background: none;
+}
+
+#spanIconaPreferiti {
+	font-size: 20px;
+	color: red;
+}
+
+#bottoneRicerca {
+	color: #ffd700;
+	background-color: #1e90ff;
+}
+
+#eliminaOggetto {
+	text-align: right;
+	color: red;
+}
+
+
+
+#bodyPreferiti {
+	margin-top: -1px;
+	background-color: white;
+	border: solid 7px #1e90ff;
+	padding: 0px;
+	padding-bottom: 50px;
+}
+
+#bodyAccedi {
+	margin-left: 10%;
+}
+
+/* CHAT*/
+#contenitoreConversazioniContatti {
+	margin-top: 100px;
+}
+
+#contatti {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#divPulsanteIndietro {
+	
+	display: none;
+	background: white;
+    color: red;
+    font-size: 20px;
+    height: 31px;
+}
+
+#pulsanteIndietro {
+	
+	border-style: solid;
+    border-radius: 8px;	
+}
+
+#labelConversazione {
+		display: none;
+		color: #ffd700;
+		font-size: 22px;
+}
+
+#conversazione {
+		display: none;
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+
+#labelContatti {
+	display: inline;
+	color: #1e90ff;
+	font-size: 22px;
+}
+
+#immagineAnnuncioChat {
+	border-radius: 180px;
+	display: block;
+	left: 0;
+	max-width: 60px;
+	max-height: 60px;
+	background: grey;
+}
+
+@media screen and (max-width: 830px) {
+	.divNomeVenditoreAnnuncio {
+		position: absolute;
+		top: 3px;
+		left: 125px;
+	}
+	#labelNomeVenditore {
+		text-align: left;
+		display: block;
+		margin-bottom: 10px;
+	}
+	#labelNomeAnnuncio {
+		text-align: left;
+		display: inline;
+	}
+}
+
+@media screen and (min-width: 831px) {
+	.divNomeVenditoreAnnuncio {
+		position: absolute;
+		top: 6px;
+		left: 140px;
+	}
+	#labelNomeVenditore {
+		text-align: left;
+		display: block;
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+	#labelNomeAnnuncio {
+		text-align: left;
+		display: inline;
+		font-size: 15px;
+	}
+}
+
+.contenitoreContatto {
+	position: relative;
+	border-top: solid;
+	border-color: #ffd700;
+	border-width: 3px;
+	padding-top: 3px;
+}
+
+.labelInformazioniMessaggi {
+	display: none;
+}
+
+.divMessaggioRicevuto {
+	
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.messaggioRicevuto {
+
+	max-width: 80%;
+	display: inline-block;
+	border-style: solid;
+	border-color: #1e90ff;
+	border-radius: 0px 8px 8px 8px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:10px;
+	padding-right:10px
+}
+
+.divMessaggioInviato {
+	
+	text-align: right;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.messaggioInviato {
+	
+	max-width: 80%;
+	display: inline-block;
+	border-style: solid;
+	border-color: #ffd700;
+	border-radius: 8px 0px 8px 8px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:10px;
+	padding-right:10px
+}
+
+#divBarraInputMessaggio {
+	
+	position: fixed;
+	bottom: 101px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.input-group .form-control:first-child {
+	
+	border-radius: 50px;
+    font-size: 17px;
+    margin-top: 3px;
+}
+
+.input-group-btn:last-child>.btn {
+	
+	margin-left: 5px;
+    background: #ffd700;
+    border-radius: 180px;
+    font-size: 18px;
+}
+
+.labelInformazioniBarraInput {
+	
+	display: none;
+}
+
+.simboloNotificaChat {
+	
+	color: red;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+#bottoneChat{
+	
+	font-size: 18px;
+	color: #ffd700;
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-right: 20px;
+	border-style: none;
+	background-color: #1e90ff;
+}
+
+/*FINE CHAT*/
