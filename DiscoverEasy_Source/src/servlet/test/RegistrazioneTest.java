@@ -11,8 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 import org.junit.After;
 import org.junit.Test;
 import org.mockito.Mockito;
-import controller.ManagerUtente;
-import controller.Registrazione;
+
+import interfaccia.account.Registrazione;
+import manager.utente.ManagerUtente;
 import model.beans.utenteBean;
 import model.dao.*;
 public class RegistrazioneTest {

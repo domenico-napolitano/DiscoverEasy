@@ -18,9 +18,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import controller.AggiungiAnnuncioNegozio;
-import controller.ManagerRicerca;
-import controller.ManagerUtente;
+import interfaccia.negozio.AggiungiAnnuncioNegozio;
+import manager.ricerca.ManagerRicerca;
+import manager.utente.ManagerUtente;
 import model.beans.OggettoBean;
 import model.beans.utenteBean;
 import model.dao.utenteDAO;

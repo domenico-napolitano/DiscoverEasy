@@ -15,9 +15,10 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
-import controller.EliminaAnnuncioNegozio;
-import controller.ManagerRicerca;
-import controller.ManagerUtente;
+
+import interfaccia.negozio.EliminaAnnuncioNegozio;
+import manager.ricerca.ManagerRicerca;
+import manager.utente.ManagerUtente;
 import model.beans.OggettoBean;
 import model.beans.utenteBean;
 import model.dao.OggettoDAO;

@@ -12,8 +12,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import controller.ManagerGestore;
-import controller.ManagerUtente;
+import manager.gestore.ManagerGestore;
+import manager.utente.ManagerUtente;
 import model.beans.OggettoBean;
 import model.beans.utenteBean;
 import model.dao.OggettoDAO;

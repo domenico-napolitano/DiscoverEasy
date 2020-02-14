@@ -21,7 +21,11 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import controller.*;
+import interfaccia.chat.CaricaChat;
+import interfaccia.gestore.*;
+import manager.chat.ManagerChat;
+import manager.negozio.ManagerNegozio;
+import manager.utente.ManagerUtente;
 import model.beans.*;
 import model.dao.*;
 

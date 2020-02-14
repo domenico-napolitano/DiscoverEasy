@@ -17,7 +17,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import controller.ManagerChat;
+import manager.chat.ManagerChat;
 import model.beans.*;
 import model.dao.*;
 

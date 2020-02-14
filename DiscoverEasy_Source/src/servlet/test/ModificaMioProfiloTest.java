@@ -18,8 +18,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import controller.*;
-import controller.ManagerUtente;
+import interfaccia.account.ModificaDatiMioProfilo;
+import interfaccia.gestore.*;
+import manager.utente.ManagerUtente;
 import model.beans.utenteBean;
 import model.dao.utenteDAO;
 

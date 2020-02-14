@@ -17,9 +17,11 @@ import java.sql.SQLException;
 	import org.junit.Before;
 	import org.junit.Test;
 	import org.mockito.Mockito;
-	import controller.*;
-	import controller.ManagerUtente;
-	import model.beans.utenteBean;
+
+import interfaccia.account.Login;
+import interfaccia.gestore.*;
+import manager.utente.ManagerUtente;
+import model.beans.utenteBean;
 	import model.dao.utenteDAO;
 
 	public class LoginTest {

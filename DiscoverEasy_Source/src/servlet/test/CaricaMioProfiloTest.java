@@ -15,8 +15,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import controller.CaricaMioProfilo;
-import controller.ManagerUtente;
+import interfaccia.account.CaricaMioProfilo;
+import manager.utente.ManagerUtente;
 import model.beans.utenteBean;
 import model.dao.*;
 

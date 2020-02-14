@@ -17,8 +17,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import controller.ManagerUtente;
-import controller.*;
+import interfaccia.account.Logout;
+import interfaccia.gestore.*;
+import manager.utente.ManagerUtente;
 import model.beans.utenteBean;
 import model.dao.utenteDAO;
 

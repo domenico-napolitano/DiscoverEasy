@@ -10,9 +10,10 @@ import java.sql.SQLException;
 import org.junit.*;
 import org.junit.Test;
 
+import interfaccia.gestore.*;
 import model.beans.*;
 import model.dao.*;
-import controller.*;
+import manager.utente.ManagerUtente;
 public class ManagerUtenteTest{
 
 

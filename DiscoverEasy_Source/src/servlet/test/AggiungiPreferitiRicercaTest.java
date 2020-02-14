@@ -19,10 +19,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import controller.AggiungiPreferitiRicerca;
-import controller.ManagerNegozio;
-import controller.ManagerRicerca;
-import controller.ManagerUtente;
+import interfaccia.ricerca.AggiungiPreferitiRicerca;
+import manager.negozio.ManagerNegozio;
+import manager.ricerca.ManagerRicerca;
+import manager.utente.ManagerUtente;
 import model.beans.OggettoBean;
 import model.beans.utenteBean;
 import model.dao.OggettoDAO;

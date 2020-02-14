@@ -13,7 +13,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import controller.ManagerNegozio;
+import manager.negozio.ManagerNegozio;
 import model.beans.OggettoBean;
 import model.beans.utenteBean;
 import model.dao.OggettoDAO;

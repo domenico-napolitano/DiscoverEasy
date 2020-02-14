@@ -14,8 +14,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
-import controller.EliminaAccountRicercaGestore;
-import controller.ManagerUtente;
+
+import interfaccia.gestore.EliminaAccountRicercaGestore;
+import manager.utente.ManagerUtente;
 import model.beans.utenteBean;
 import model.dao.utenteDAO;
 
